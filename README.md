@@ -5,6 +5,7 @@ This is a TypeScript library for procedurally generating Tektronix graphics comm
 ## Example
 ```ts
 // Using Bun with tek-ts
+// $ tek4010 -noexit -fast bun run ex.ts
 import {Tek_Clear,Tek_SetPen,Tek_Goto,Tek_Text,Tek_RenderHPGL} from "tek-ts"
 import {file} from "bun"
 
